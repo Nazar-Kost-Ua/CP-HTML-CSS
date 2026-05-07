@@ -1,11 +1,108 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CV — Досвід роботи</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <main class="page">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="sidebar_top">
+        <div class="avatar">
+          <img class="avatar_img" src="cropped_circle_image 1.png" alt="Фото профілю">
+        </div>
+      </div>
+
+      <section class="s-block">
+        <h3>Особиста інформація</h3>
+        <div class="content_rule"></div>
+
+        <div class="s-item">
+          <div class="s-item_label">ПІБ</div>
+          <div class="s-item_value">Костюкевич Назар<br/>Станіславович</div>
+        </div>
+
+        <div class="s-item">
+          <div class="s-item_label">Адреса</div>
+          <div class="s-item_value">м. Київ, вул. Тараса<br/>Шевченка 2 буд. 5</div>
+        </div>
+
+        <div class="s-item">
+          <div class="s-item_label">Телефон</div>
+          <div class="s-item_value">+380960000000</div>
+        </div>
+      </section>
+
+      <section class="s-block">
+        <h3>Alma mater</h3>
+        <div class="content_rule"></div>
+
+        <div class="edu">
+          <div class="edu_degree">Молодший бакалавр</div>
+          <div class="edu_place">Коледж інженерії та<br/>Управління НАУ</div>
+        </div>
+
+        <div class="edu edu--spaced">
+          <div class="edu_degree">Бакалавр</div>
+          <div class="edu_place">Державний торговельно-економічний університет</div>
+        </div>
+      </section>
+    </aside>
+
+    <!-- Content -->
+    <section class="content">
+      <header class="content_header">
+        <h1 class="content_title">Досвід роботи</h1>
+        <div class="content_rule"></div>
+      </header>
+
+      <article class="job">
+        <h2 class="job_title">
+          Молодший системний адміністратор / <span>Technical Support Engineer</span>
+        </h2>
+        <div class="job_meta">
+          Компанія: IT-tech | 12.06.2019 – 10.04.2021
+        </div>
+        <ul class="job_list">
+          <li>Технічна підтримка користувачів (L1/L2).</li>
+          <li>Збірка, налаштування та ремонт ПК і оргтехніки.</li>
+          <li>Налаштування базових мережевих сервісів та периферійного обладнання.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h2 class="job_title">
+          Системний адміністратор / <span>System Administrator</span>
+        </h2>
+        <div class="job_meta">
+          Компанія: EVO | 11.12.2022 – 05.02.2023
+        </div>
+        <ul class="job_list">
+          <li>Підтримка мережевої інфраструктури офісу (100+ робочих місць).</li>
+          <li>Адміністрування: Windows Server, SQL Server, систем відеоспостереження та СКУД.</li>
+          <li>Автоматизація розгортання ПЗ на робочих станціях через GPO.</li>
+          <li>Взаємодія з провайдерами та постачальниками обладнання.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h2 class="job_title">
+          Головний системний адміністратор / <span>Senior System Administrator</span>
+        </h2>
+        <div class="job_meta">
+          Компанія: Netcracker | 07.10.2023 – 04.11.2026
+        </div>
+        <ul class="job_list">
+          <li>Керування серверним парком (понад 50 фізичних та віртуальних серверів).</li>
+          <li>Впровадження системи моніторингу: Zabbix.</li>
+          <li>Міграція корпоративної пошти в Office 365 / Google Workspace.</li>
+          <li>Налаштування відмовостійких кластерів та систем збереження даних (SAN/NAS).</li>
+        </ul>
+      </article>
+    </section>
+  </main>
 </body>
 </html>
